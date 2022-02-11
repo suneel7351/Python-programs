@@ -1,0 +1,194 @@
+Script started on 2022-01-12 10:54:19+05:30 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="149" LINES="42"]
+                                                                                                                                                     ]0;suneel@Window: ~/Desktop/python[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop/python[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mo[24m[4mo[4mu[24m[4mo[24m[24m [24m [1m[31mp[0m[39m[38;2;153;153;153mython square.py[39m[15D[1m[31mp[1m[31mt[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[1m[31mp[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[1m[31mo[1m[31mn[0m[39m[1m[31mn[1m[31mo[0m[39m[1m[31mn[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [1m[31mh[0m[39m[0m[39m [1m[31mp[1m[31mt[0m[39m[0m[39m [1m[31mp[0m[39m[0m[38;2;153;153;153my[38;2;153;153;153mthon square.py[39m[15D[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[?1l>[?2004l
+Python 2.7.18 (default, Apr 28 2021, 17:39:59) 
+[GCC 10.2.1 20210110] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+[?2004h>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> x=[5,7,9,2,5]
+[?2004l[?2004h>>> x[1]=8/
+[?2004l  File "<stdin>", line 1
+    x[1]=8/
+          ^
+SyntaxError: invalid syntax
+[?2004h>>> x[1]=8/[K
+[?2004l[?2004h>>> x[2]=10
+[?2004l[?2004h>>> x
+[?2004l[5, 8, 10, 2, 5]
+[?2004h>>> x[1:3]==[K[11,23]
+[?2004l[?2004h>>> s[Kx
+[?2004l[5, 11, 23, 2, 5]
+[?2004h>>> x.sort()
+[?2004l[?2004h>>> x
+[?2004l[2, 5, 5, 11, 23]
+[?2004h>>> x.reverse()
+[?2004l[?2004h>>> x
+[?2004l[23, 11, 5, 5, 2]
+[?2004h>>> x="xy[K[Ksuneel"  
+[?2004l[?2004h>>> x.i[Klist()
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'list'
+[?2004h>>> c[Kli=x.list()
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'list'
+[?2004h>>> 
+[?2004l[?2004h>>> x="suneel"
+[?2004l[?2004h>>> x
+[?2004l'suneel'
+[?2004h>>> print(list(x))
+[?2004l['s', 'u', 'n', 'e', 'e', 'l']
+[?2004h>>> #i[K index of[K[Kin ;ist[K[K[K[Klist of string
+[?2004l[?2004h... x[Kx=[5,6,7,8,9]
+[?2004l[?2004h>>> i=x.index(7)
+[?2004l[?2004h>>> print(i)
+[?2004l2
+[?2004h>>> # pa[K[Kappend function list me [K[K[K[K[K[K[K[K: list o[K[K[Kt me peeche [K[K[K[K[K[K[K[K al[K[Ksns[K[Kbse last me a[Kadd kr den[Kta
+[?2004l[?2004h... x=[1,2,34,[K[K5,[K[K,5,6]
+[?2004l[?2004h>>> x.append(12)
+[?2004l[?2004h>>> x
+[?2004l[1, 2, 3, 5, 6, 12]
+[?2004h>>> # for m[Kappedn[K[Knd multyple values L[K: we can extend list 
+[?2004l[?2004h... x=[6,7,3,9]
+[?2004l[?2004h>>> y[[K=[4,1,05]
+[?2004l[?2004h>>> y=[4,1,05],5][C[C
+[?2004l[?2004h>>> x+y
+[?2004l[6, 7, 3, 9, 4, 1, 0, 5]
+[?2004h>>> #$[K + [K[Kopera[Kator + lists ko add krke ek new list bnata hia[K[Kai
+[?2004l[?2004h... x[Kz=x+y
+[?2004l[?2004h>>> z
+[?2004l[6, 7, 3, 9, 4, 1, 0, 5]
+[?2004h>>> # there is on relation beweee[K[K[K[Ktween x and z o[Kand x[Ky and y
+[?2004l[?2004h... # zi[K is [K[K[K is a jdii[K[K[K[Kfi[K[Kdifferent list
+[?2004l[?2004h... # we [K[K[K[K[Kx.extend(Y)
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'Y' is not defined
+[?2004h>>> x.extend(Y)[1P)y)
+[?2004l[?2004h>>> x
+[?2004l[6, 7, 3, 9, 4, 1, 0, 5]
+[?2004h>>> # Now y jpo[K[K[K[K[Kx ahs[K[K[Khas owen an[K[K[K[K[Kn and as well [K[K[K[K[K[K[K[K[K[K[K[Kelement and y e[K[K[K[K element of y
+[?2004l[?2004h... y p[K[K[K# poit [K[Knt [K[K[K[K[K[Kno [Kw y point z[Kx
+[?2004l[?2004h... x.remo[K[K[K[K[K[K
+[?2004l[?2004h>>> x==[K[6,7,39]
+[?2004l[?2004h>>> x.remove(9)
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+[?2004h>>> x.remove(9)[K[K[K[K[K[K[K[K[K[K[Kx=[6,7,3,9]
+[?2004l[?2004h>>> x.remove(9)
+[?2004l[?2004h>>> x
+[?2004l[6, 7, 3]
+[?2004h>>> remov[K[K[K[K[K# remove mert[K[Kthod remove an element from a list
+[?2004l[?2004h... 
+[?2004l[?2004h>>> # list is a sw[Kequnce and array trarte[K[K[K[Keated[K[Ks a s[K[Ks a matrix
+[?2004l[?2004h... # we can create aa[Krrya[K[Kay using numpy package
+[?2004l[?2004h... imo[K[K[K# import {[K[package aneml[K[K[K[K[Kname]
+[?2004l[?2004h... 
+[?2004l[?2004h>>> import numpy as np
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named numpy
+[?2004h>>> im[K[Kimport numpy as np[K[K[K[K[K\
+[?2004l[?2004h... x=[6,7,3,9] \
+[?2004l  File "<stdin>", line 2
+    x=[6,7,3,9] \
+    ^
+SyntaxError: invalid syntax
+[?2004h>>> x=[6,7,3,9] \[K[K[K[K[K[K[K[K[K[K[K[K[Kimport numpy \as np\[K
+[?2004l[?2004h... import numpy \[C[C[C[C[Kimport numpy \as np[C[C[C[C# import [package name][C[C[C[C[C[Cwe can create array using numpy package[C[C[C[C[C[C[18Pimport [package name][C[C[C[C[5Pimport numpy as np\[K[C[C[C[C[Kimport numpy \[C[C[C[C[Kx=[6,7,3,9]
+[?2004l  File "<stdin>", line 2
+    x=[6,7,3,9]
+    ^
+SyntaxError: invalid syntax
+[?2004h>>> x=[6,7,3,9][C[C[C[Cimport numpy \
+[?2004l[?2004h... import numpy \[C[C[C[C[3Px=[6,7,3,9] \[C[C[C[C[1@import numpy[C[C[C[C[C[C[1Px=[6,7,3,9][C[C
+[?2004l  File "<stdin>", line 2
+    x=[6,7,3,9] \
+    ^
+SyntaxError: invalid syntax
+[?2004h>>> x=[5,7,3,9]
+[?2004l[?2004h>>> y=[4,1,8,5]
+[?2004l[?2004h>>> import nulm[K[Kmpy \
+[?2004l[?2004h... print[Kt(numpy.(array(x),numpy.array(y))[1Parray(x),numpy.array(y))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l  File "<stdin>", line 2
+    print(numpy.array(x),numpy.array(y))
+        ^
+SyntaxError: invalid syntax
+[?2004h>>> ar1=numpy.array(x)
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'numpy' is not defined
+[?2004h>>> ar1=numpy.array(x)[C[C[C[Cprint(numpy.array(x),numpy.array(y))[C[C[C[C[22Pimport numpy \[K
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named numpy
+[?2004h>>> numpy
+[?2004lTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'numpy' is not defined
+[?2004h>>> def [K[K[K[K# def functionName ()[K[K[K[Ke():
+[?2004l[?2004h...     cojjde[K[K[K[Kde.....
+[?2004l  File "<stdin>", line 2
+    code.....
+    ^
+IndentationError: unexpected indent
+[?2004h>>>     code.....[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K# def functionName():[C[C[C[Cnumpy[K# def functionName():
+[?2004l[?2004h... # ..... doe[K[K[Kcode ...
+[?2004l[?2004h... def f1():\
+[?2004l[?2004h... a[K    [Ka=int(input("eter[K[K[Knter number"))\
+[?2004l[?2004h...    b=int [K(intput[K[K[K[Knpu[K[K[Kput("secod [K[Knd numvb[K[Kber")) \
+[?2004l  File "<stdin>", line 5
+    b=int(input("second number")) \
+    ^
+SyntaxError: invalid syntax
+[?2004h>>> 
+zsh: suspended  python
+                                                                        ]0;suneel@Window: ~/Desktop/python
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop/python[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[57C 148 [31m[1m[31m⨯[0m[31m[39m 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[4mc[24m[38;2;153;153;153mlear[39m[24m [39m [39m [39m [39m [1m[31me[0m[39m[38;2;153;153;153mdit[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mo[0m[39m[39m [1m[31mo[1m[31mi[0m[39m[1m[31mo[0m[39m[0m[39m [0m[32me[0m[32mx[39m[0m[38;2;153;153;153mi[38;2;153;153;153mt[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m [4ms[24m[24mscript[?1l>[?2004l
+zsh: you have suspended jobs.
+                                                                        ]0;suneel@Window: ~/Desktop/python
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop/python[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[4mc[24m[38;2;153;153;153mlear[39m[24m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
+[H[2J[3J                                                                        ]0;suneel@Window: ~/Desktop/python
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop/python[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+2dlist.py      factorial.py    LenthGre4.py   square.py
+conversion.py  function.py     output.txt     table.py
+digit.py       hexadecimal.py  SeriesData.py
+                                                                        ]0;suneel@Window: ~/Desktop/python
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop/python[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[4mc[24m[38;2;153;153;153mlear[39m[24m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
+[H[2J[3J                                                                        ]0;suneel@Window: ~/Desktop/python
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop/python[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[4mc[24m[38;2;153;153;153mlear[39m[24m[32mc[32md[39m[38;2;153;153;153m [38;2;153;153;153mB[38;2;153;153;153mu[38;2;153;153;153mrger[39m[39m [39m[4m.[24m[38;2;153;153;153m.[39m[39m [39m [39m [39m [4m.[39m[4m.[24m[?1l>[?2004l
+                                                                        ]0;suneel@Window: ~/Desktop
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~/Desktop[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[1m[31mc[0m[39m[38;2;153;153;153md ..[39m[0m[32mc[32md[39m[39m [39m[4m.[24m[4m.[39m[4m.[24m[?1l>[?2004l
+                                                                        ]0;suneel@Window: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+[0m[01;34mDesktop[0m                                   package.json
+[01;34mDocuments[0m                                 package-lock.json
+[01;34mDownloads[0m                                 [01;34mPictures[0m
+[01;31mgoogle-chrome-stable_current_amd64.deb[0m    [01;34mPublic[0m
+google-chrome-stable_current_amd64.deb.1  [01;35mSuneel_Display.png[0m
+[01;34mMusic[0m                                     [01;34mTemplates[0m
+[01;34mnode_modules[0m                              [01;34mVideos[0m
+output.txt                                wget-log
+                                                                        ]0;suneel@Window: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[63C 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[1m[31mc[0m[39m[38;2;153;153;153md ..[39m[0m[32mc[32md[39m[39m [39m[4mo[24m[38;2;153;153;153mp[38;2;153;153;153mt[39m[4mo[39m[4mu[24m[39m [4mu[4mt[24m[24mM[24mu[24msic[1m/[0m
+Completing corrections[K[K
+[7mMusic/ [0m  [01;34mPublic[0m/[K
+Completing original[K[K
+[J[0mout[J[4A[0m[27m[24m[0m[39m[4C[32mcd[39m Music[1m/[0m[K[54C 1 [33m[1m[33m⚙[0m[33m[39m[0m[39m[58D
+[1B[7mMusic/ [0m  [7mMusic/ [0m  [A[A[0m[27m[24m[0m[39m[4C[32mcd[39m Music[1m/[0m[K[54C 1 [33m[1m[33m⚙[0m[33m[39m[0m[39m[58D
+[J[A[13C[4mM[4mu[4ms[4mi[4mc[1m[4m/[0m[24m[24mM[24mu[24ms[24mi[24mc[0m[24m/pu [4mM[4mu[4ms[4mi[4mc[4m/[24m [4mc[24m[24m [4mi[24m[24m [4ms[24m[24m [4mu[24m[24m [4mM[24m[24m [24m[38;2;153;153;153m.[38;2;153;153;153m.[39m[39m[4mo[24m[38;2;153;153;153mp[38;2;153;153;153mt[39m[4mo[39m[4mu[24m[39m [4mu[4mt[24m[24mo[24mu[24mtjpu  [4mo[4mu[4mt[24m [4mt[4mp[24m[4mp[4mu[24m[4mu[4mt[24m[9D[39mc[39md [24mo[24mu[24mt[24mp[24mu[24mt
+[J[JCompleting `local directory' or `corrections'[A[0m[27m[24m[0m[39m[4Ccd output[K[54C 1 [33m[1m[33m⚙[0m[33m[39m[0m[39m[58D[9D[32mc[32md[39m [4mo[4mu[4mt[4mp[4mu[4mt[4m.[24m[4m.[4mt[24m[4mt[4mx[24m[4mx[4mt[24m[?1l>[?2004l
+[Jcd: not a directory: output.txt
+                                                                        ]0;suneel@Window: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34msuneel㉿Window[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[59C 1 [31m[1m[31m⨯[0m[31m[39m 1 [33m[1m[33m⚙[0m[33m[39m[67D[?1h=[?2004h[32mn[39m[38;2;153;153;153mpm start[39m[8D[1m[31mn[1m[31ma[0m[39m[38;2;153;153;153mn[38;2;153;153;153mo[38;2;153;153;153m [38;2;153;153;153mi[38;2;153;153;153mn[38;2;153;153;153md[38;2;153;153;153me[38;2;153;153;153mx.php[39m[12D[1m[31mn[1m[31ma[1m[31mn[0m[39m[0m[32mn[0m[32ma[0m[32mn[32mo[39m[39m [39m[4mo[24m[39m [39m [39m [39m [39m [39m [39m [39m [8D[4mo[4mu[24m[4mu[4mt[24m[4mt[4mp[24m[4mp[4mu[24m[4mu[4mt[24m[4mt[4m.[24m[4m.[4mt[24m[4mt[4mx[24m[4mx[4mt[24m[10D[24mo[24mu[24mt[24mp[24mu[24mt[24m.[24mt[24mx[24mty[11D[4mo[4mu[4mt[4mp[4mu[4mt[4m.[4mt[4mx[4mt[24m [?1l>[?2004l
+[?2004h[?1049h[22;0;0t[1;42r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ Reading... ](B[m[40;29H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 5.4                   output.txt                             [1;71H(B[m[41d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[41;57H(B[0;7m^T(B[m Execute[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B
