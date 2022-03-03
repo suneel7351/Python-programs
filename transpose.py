@@ -1,14 +1,23 @@
-def transpose(matrix):
-    for i in range(len(matrix)):
-        for j in range(len(matrix[0])):
-            result[j][i]=matrix[i][j]
+p = int(input("Enter no. of rows : "))
+q = int(input("Enter no. of column : "))
+print("Enter the element of matrix : ")
+matrix = [[int(input()) for j in range(q)] for i in range(p)]
 
+print("matrix : ")
+for i in range(p):
+    for j in range(q):
+        print(format(matrix[i][j], "<5"), end="")
+    print()
 
+result = [[0 for j in range(p)] for i in range(q)]
 
+for i in range(q):
+    for j in range(p):
+        result[i][j] = matrix[j][i]
 
-result=[[0,0,0],[0,0,0]]
+print("Transpose of matrix")
 
-matrix=[[1,2],[4,5],[7,8]]
-transpose(matrix)
-for i in result:
-    print(i)
+for i in range(p):
+    for j in range(q):
+        print(format(result[i][j], "<5"), end="")
+    print()
