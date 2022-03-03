@@ -1,16 +1,22 @@
-n=3
-def scalerOfMatrix(matrix,k):
-    for i in range(n):
-        for j in range(n):
-            matrix[i][j]=matrix[i][j]*k
 
+p = int(input("Enter no. of rows : "))
+q = int(input("Enter no. of column : "))
+k = int(input("Enter the value of k : "))
+print("enter the element of matrix : ")
+matrix = [[int(input()) for j in range(q)] for i in range(p)]
 
+print("matrix")
+for i in range(p):
+    for j in range(q):
+        print(format(matrix[i][j], "<6"), end="")
+    print()
+for i in range(p):
+    for j in range(q):
+        matrix[i][j] = matrix[i][j]*k
 
-matrix=[[4,3,5],[7,9,2],[7,2,1]]
-k=5
+print("Scaler matrix : ")
 
-scalerOfMatrix(matrix,k)
- 
-for i in range(n):
-    for j in range(n):
-        print(matrix[i][j])
+for i in range(p):
+    for j in range(q):
+        print(format(matrix[i][j], "<6"), end="")
+    print()
