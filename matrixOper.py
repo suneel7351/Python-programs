@@ -1,17 +1,11 @@
 import module as op
+mat1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+mat2 = [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+result = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
-
-            
-            
-            
-            
-mat1=[[1,2,3],[4,5,6],[7,8,9]]
-mat2=[[9,8,7],[6,5,4],[3,2,1]]
-result=[[0,0,0],[0,0,0],[0,0,0]]
-
-op.sub(mat1,mat2,result)
+op.sub(mat1, mat2, result)
 print(result)
-op.sum(mat1,mat2,result)
+op.sum(mat1, mat2, result)
 print(result)
-op.mul(mat1,mat2,result)
+op.mul(mat1, mat2, result)
 print(result)

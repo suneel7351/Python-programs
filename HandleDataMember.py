@@ -18,5 +18,5 @@ try:
         print(obj.display())
 
 
-except Exception():
-    pass
+except Exception as e:
+    print(e)

@@ -24,9 +24,13 @@ class Truck(Vehicle):
               "Max-speed : ", str(self.maxSpeed) + "\n" + "Mileage : ", str(self.mileage))
 
 
+v = Vehicle("name", 12, 22)
+v.price = 112
 car = Car("Fortuner", 160, 17)
 bus = Bus("ford", 110, 9)
 truck = Truck("TATA", 120, 5)
 car.display()
 bus.display()
 truck.display()
+truck.price = 222
+print(truck.price)

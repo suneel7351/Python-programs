@@ -1,0 +1,3 @@
+1.write a program in python to create a folder and create a file in this folder and write content and read in this file while this folder doest not exist.
+2.write a program in python to move a file from abc folder to pqr folder
+3.
